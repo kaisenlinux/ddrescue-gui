@@ -1,0 +1,30 @@
+ddrescue-gui (10:2.1.0+kaisen1) kaisen-devel; urgency=medium
+
+  * Rebuilding for Kaisen Linux Rolling
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 25 May 2020 10:34:59 +0200
+
+ddrescue-gui (10:2.1.0~focal~update1-0ubuntu1~ppa1) focal; urgency=low
+  * Changes since v2.0.2:
+  *
+  * Drop support for wxPython 2.8.11, Ubuntu 14.04, and Python 2.7.6.
+  * Fix logging in submodules.
+  * Improve in-code documentation.
+  * Fix using output and log files with spaces in the names.
+  * Add tooltips for macOS about the overwrite notices.
+  * Clarify when to enable direct disk access in the settings window.
+  * Large rewrite and various fixes in output file mounting code.
+  * Fix mounting CD images on Linux and macOS.
+  * Fix LP #1852598 Reusing DDRescue-GUI after aborting results in an aborted message upon completion
+  * Fix LP #1852596 Choosing previously selected file causes DDRescue-GUI to hang
+  * General cleanup and fixed several hangs.
+  * Use ddrescue's time remaining estimates when available, fixes LP#1731640
+  * Add APFS mounting support for macOS 10.12 and higher.
+  * Add LVM mounting support for Linux.
+  * Add explicit support for ddrescue 1.25 and add ddrescue 1.25 binary for macOS.
+  * Add an "Open File Viewer" button on the finished window.
+  * Provide a text entry dialog so users on macOS can now select arbitrary devices.
+  * Don't present users with choices during mounting when unneccessary.
+  * Various other smaller fixes and improvements.
+
+ -- Hamish T. McIntyre-Bhatty (PGP key for signing launchpad packages) <hamishmb@live.co.uk>  Mon, 27 Apr 2020 14:26:17 +0100
