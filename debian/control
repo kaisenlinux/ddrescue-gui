@@ -1,12 +1,11 @@
 Source: ddrescue-gui
 Section: utils
 Priority: extra
-XSBC-Original-Maintainer: Hamish McIntyre-Bhatty <hamishmb@live.co.uk>
-Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Maintainer: Hamish McIntyre-Bhatty <hamishmb@live.co.uk>
 Build-Depends: debhelper (>= 5), cdbs (>= 0.2)
-Standards-Version: 3.9.7
+Standards-Version: 4.5.0
 
 Package: ddrescue-gui
 Architecture: all
-Depends: python3, python3-wxgtk4.0, python3-getdevinfo, python3-requests, gddrescue, psmisc, coreutils, kpartx, parted, util-linux, libnotify-bin, mount, bash, policykit-1, ${misc:Depends}
-Description: A simple GUI frontend to make gddrescue easier to use.
+Depends: python3, python3-wxgtk4.0, python3-getdevinfo, python3-requests, gddrescue, psmisc, coreutils, kpartx, parted, util-linux, libnotify-bin, cryptsetup-bin, mount, bash, policykit-1, ${misc:Depends}
+Description: A simple GUI frontend to make GNU ddrescue easier to use.

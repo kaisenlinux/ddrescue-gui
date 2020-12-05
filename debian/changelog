@@ -1,3 +1,21 @@
+ddrescue-gui (10:2.1.1+kaisen1) kaisen-packages; urgency=medium
+
+  * Rebuilding for Kaisen Linux Rolling
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 05 Dec 2020 18:05:41 +0200
+
+ddrescue-gui (10:2.1.1~otherdistro-0ubuntu1~ppa1) otherdistro; urgency=low
+  * Changes since v2.1.0:
+  *
+  * Drop support and workarounds for Python 2.
+  * Make DDRescue-GUI compatible with wxPython 4.1.0.
+  * Various fixes for Cygwin, including fixing a potential memory leak.
+  * Make developer docs more mobile friendly.
+  * Fix unmounting output files on certain versions of macOS.
+  * Add the .desktop file to the repository.
+
+ -- Hamish T. McIntyre-Bhatty (PGP key for signing launchpad packages) <hamishmb@live.co.uk>  Fri, 28 Aug 2020 10:34:29 +0100
+
 ddrescue-gui (10:2.1.0+kaisen1) kaisen-devel; urgency=medium
 
   * Rebuilding for Kaisen Linux Rolling
