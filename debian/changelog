@@ -1,3 +1,14 @@
+ddrescue-gui (11:2.1.1-1kaisen) kaisen-packages; urgency=medium
+
+  * Quilt package
+  * Add homepage URL in the control file
+  * Add Vcs entries
+  * Update maintainer email address
+  * Complete repackaging
+  * Add Kaisen polkit
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 09 Jan 2022 03:07:19 +0100
+
 ddrescue-gui (10:2.1.1+kaisen1) kaisen-packages; urgency=medium
 
   * Rebuilding for Kaisen Linux Rolling

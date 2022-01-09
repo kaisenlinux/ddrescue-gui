@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+ln -s /usr/share/ddrescue-gui/DDRescue_GUI.py /usr/sbin/ddrescue-gui
