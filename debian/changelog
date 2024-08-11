@@ -1,3 +1,9 @@
+ddrescue-gui (11:2.1.1-2kaisen) kaisen-packages; urgency=medium
+
+  * Replace policykit-1 by polkitd
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 11 Aug 2024 15:16:48 +0200
+
 ddrescue-gui (11:2.1.1-1kaisen) kaisen-packages; urgency=medium
 
   * Quilt package
